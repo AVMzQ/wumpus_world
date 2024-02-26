@@ -1,0 +1,11 @@
+C:\Users\angel\source\repos\Wumpus\Wumpus\bin\Debug\Wumpus.exe.config
+C:\Users\angel\source\repos\Wumpus\Wumpus\bin\Debug\Wumpus.exe
+C:\Users\angel\source\repos\Wumpus\Wumpus\bin\Debug\Wumpus.pdb
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.csproj.AssemblyReference.cache
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.Form1.resources
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.Menu.resources
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.Properties.Resources.resources
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.csproj.GenerateResource.cache
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.csproj.CoreCompileInputs.cache
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.exe
+C:\Users\angel\source\repos\Wumpus\Wumpus\obj\Debug\Wumpus.pdb

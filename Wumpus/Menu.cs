@@ -10,20 +10,16 @@ using System.Windows.Forms;
 
 namespace Wumpus
 {
-    public partial class Form1 : Form
+    public partial class Menu : UserControl
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-            tablero_Data td = new tablero_Data() { 
-                tablero = pTablero};
-            tablero tablero = new tablero();
-            tablero.Td = td;
-            tablero.Dibujar_X();
+
         }
     }
 }
