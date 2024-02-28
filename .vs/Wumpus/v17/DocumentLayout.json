@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\Wumpus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|C:\\Users\\angel\\source\\repos\\Wumpus\\wumpus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|C:\\Users\\angel\\source\\repos\\Wumpus\\wumpus\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|solutionrelative:wumpus\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|c:\\users\\angel\\source\\repos\\wumpus\\wumpus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|solutionrelative:wumpus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +15,7 @@
       "RelativeMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|solutionrelative:wumpus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|C:\\Users\\angel\\source\\repos\\Wumpus\\wumpus\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|solutionrelative:wumpus\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|c:\\users\\angel\\source\\repos\\wumpus\\wumpus\\tablero_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|C:\\Users\\angel\\source\\repos\\Wumpus\\wumpus\\tablero_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFC204C9-FBB4-415C-8335-1941A6B257C7}|Wumpus\\Wumpus.csproj|solutionrelative:wumpus\\tablero_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -36,40 +36,42 @@
               "RelativeDocumentMoniker": "Wumpus\\tablero_Data.cs",
               "ToolTip": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\tablero_Data.cs",
               "RelativeToolTip": "Wumpus\\tablero_Data.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAUAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T02:31:27.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "tablero.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\tablero.cs",
-              "RelativeDocumentMoniker": "Wumpus\\tablero.cs",
-              "ToolTip": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\tablero.cs",
-              "RelativeToolTip": "Wumpus\\tablero.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAD4v1EAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T00:35:34.044Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "tablero.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\tablero.cs",
+              "RelativeDocumentMoniker": "Wumpus\\tablero.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\tablero.cs",
+              "RelativeToolTip": "Wumpus\\tablero.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA4wEcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T00:35:34.044Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\Form1.cs",
               "RelativeDocumentMoniker": "Wumpus\\Form1.cs",
               "ToolTip": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\Form1.cs",
               "RelativeToolTip": "Wumpus\\Form1.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAcwEsAAAAdAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAIA/wC4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T00:23:58.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Wumpus\\Wumpus\\Form1.cs",
               "RelativeDocumentMoniker": "Wumpus\\Form1.cs",

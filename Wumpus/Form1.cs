@@ -14,7 +14,7 @@ namespace Wumpus
     public partial class Form1 : Form
     {
         private Tuple<int, Panel> Aventurero_Posicion;
-        int x = 5, y = 7;
+        int x = 10, y = 10, movimientos = 0, flechas = 0;
         public Form1()
         {
             InitializeComponent();
@@ -34,45 +34,54 @@ namespace Wumpus
             tablero tablero = new tablero();
             tablero.Td = td;
             tablero.Crear_Tablero();
-            Aventurero_Posicion = td.Aventurero_Posicion;
-        }
 
-        private void flowLayoutPanel2_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
-        {
-            
-        }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            tablero_Data td = new tablero_Data()
-            {
+            Aventurero_data ad = new Aventurero_data() { 
                 tablero = this.tablero,
                 x = x,
-                y = y,
-                Aventurero_Posicion = Aventurero_Posicion
+                y = y};
+            Aventurero_controller Aventurero_controller = new Aventurero_controller();
+            Aventurero_controller.Ad =ad;
+            Aventurero_controller.Aventurero_Iniciar();
+            Aventurero_Posicion = ad.Aventurero_Posicion;
+            movimientos = 0;
+            lblxy.Text = movimientos.ToString();
+        }
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            Aventurero_data ad = new Aventurero_data()
+            {
+                tablero = this.tablero,
+                Aventurero_Posicion = Aventurero_Posicion,
+                x = x,
+                y = y
             };
-            tablero tablero = new tablero();
-            tablero.Td = td;
+            Aventurero_controller Aventurero_controller = new Aventurero_controller();
+            Aventurero_controller.Ad = ad;
             switch (e.KeyCode)
             {
                 case Keys.W:
-                    tablero.Aventurero_Mover(0);
-                    Aventurero_Posicion = td.Aventurero_Posicion;
+                    Aventurero_controller.Aventurero_Mover(0);
+                    Aventurero_Posicion = ad.Aventurero_Posicion;
+                    pbVista.Image = Properties.Resources.flecha_hacia_arriba;
                     break;
                 case Keys.D:
-                    tablero.Aventurero_Mover(1);
-                    Aventurero_Posicion = td.Aventurero_Posicion;
+                    Aventurero_controller.Aventurero_Mover(1);
+                    Aventurero_Posicion = ad.Aventurero_Posicion;
+                    pbVista.Image = Properties.Resources.flecha_correcta;
                     break;
                 case Keys.S:
-                    tablero.Aventurero_Mover(2);
-                    Aventurero_Posicion = td.Aventurero_Posicion;
+                    Aventurero_controller.Aventurero_Mover(2);
+                    Aventurero_Posicion = ad.Aventurero_Posicion;
+                    pbVista.Image = Properties.Resources.flecha_hacia_abajo;
                     break;
                 case Keys.A:
-                    tablero.Aventurero_Mover(3);
-                    Aventurero_Posicion = td.Aventurero_Posicion;
+                    Aventurero_controller.Aventurero_Mover(3);
+                    Aventurero_Posicion = ad.Aventurero_Posicion;
+                    pbVista.Image = Properties.Resources.flecha_izquierda;
                     break;
             }
-            lblxy.Text = Aventurero_Posicion.Item2.Name;
+            movimientos += 1;
+            lblxy.Text = movimientos.ToString();
             textBox1.Clear();
         }
     }

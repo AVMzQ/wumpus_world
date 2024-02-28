@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aventurero_controller.cs" />
+    <Compile Include="Aventurero_data.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +95,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ezgif-3-5365f0d974.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bastante-sorprendidos-y-preocupados-buscando-2-encabezada-monstruo-con-una-personalidad-dividida-e61g68.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-hacia-arriba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-hacia-abajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-izquierda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-correcta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\me-gusta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lingote-de-oro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacterias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agujero.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

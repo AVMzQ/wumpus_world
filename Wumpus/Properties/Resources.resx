@@ -118,7 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flecha-hacia-arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha-hacia-arriba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lingote-de-oro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lingote-de-oro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha-izquierda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha-izquierda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="me-gusta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\me-gusta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ezgif-3-5365f0d974" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ezgif-3-5365f0d974.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bacterias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bacterias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha-hacia-abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha-hacia-abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bastante-sorprendidos-y-preocupados-buscando-2-encabezada-monstruo-con-una-personalidad-dividida-e61g68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bastante-sorprendidos-y-preocupados-buscando-2-encabezada-monstruo-con-una-personalidad-dividida-e61g68.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha-correcta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha-correcta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agujero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agujero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
