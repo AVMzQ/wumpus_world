@@ -1,6 +1,5 @@
 # Wumpus world
-El objetivo del juego es contrar el oro sin caer en un hoyo o 
-caer en la casilla del wumpus y salir de la cueva.
+El objetivo del juego es econtrar el oro y salir de la cueva sin morir en el intento.
 
 <b>********** Reglas del juego**********</b>
 
