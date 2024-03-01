@@ -151,4 +151,31 @@
   <data name="agujero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\agujero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Brisa__efecto_de_sonido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brisa_-efecto-de-sonido.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dark_Souls___You_Died___Sound_Effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark-Souls-_-You-Died-_-Sound-Effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pokémon_Blanco_y_Negro_OST___14___Pueblo_Terracota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pokémon Blanco y Negro OST - 14 - Pueblo Terracota.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Gruñido_de_Monstruo_Sonido___Monster_Snarling_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gruñido de Monstruo Sonido - Monster Snarling Sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cueva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pokémon_Blanco_y_Negro_OST___52__Problemas_en_Combate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pokémon Blanco y Negro OST - 52 -Problemas en Combate.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fe28b730923627_563933e4c2143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fe28b730923627.563933e4c2143.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sonido_de_ganador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sonido de ganador.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_200w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\200w.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -31,15 +31,16 @@
             this.tlp_Juego = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
+            this.pbVista = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblxy = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.lblFlechas = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.pbAventurero = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tablero = new System.Windows.Forms.FlowLayoutPanel();
-            this.pbVista = new System.Windows.Forms.PictureBox();
-            this.pbAventurero = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblDescripcion = new System.Windows.Forms.Label();
             this.tlp_Juego.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbVista)).BeginInit();
@@ -69,9 +70,10 @@
             this.flowLayoutPanel1.Controls.Add(this.pbVista);
             this.flowLayoutPanel1.Controls.Add(this.label1);
             this.flowLayoutPanel1.Controls.Add(this.lblxy);
-            this.flowLayoutPanel1.Controls.Add(this.label3);
             this.flowLayoutPanel1.Controls.Add(this.lblFlechas);
             this.flowLayoutPanel1.Controls.Add(this.button1);
+            this.flowLayoutPanel1.Controls.Add(this.label3);
+            this.flowLayoutPanel1.Controls.Add(this.lblDescripcion);
             this.flowLayoutPanel1.Controls.Add(this.pbAventurero);
             this.flowLayoutPanel1.Controls.Add(this.textBox1);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -90,6 +92,17 @@
             this.label2.Size = new System.Drawing.Size(65, 23);
             this.label2.TabIndex = 5;
             this.label2.Text = "Vista";
+            // 
+            // pbVista
+            // 
+            this.pbVista.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbVista.Image = global::Wumpus.Properties.Resources.me_gusta;
+            this.pbVista.Location = new System.Drawing.Point(3, 26);
+            this.pbVista.Name = "pbVista";
+            this.pbVista.Size = new System.Drawing.Size(191, 105);
+            this.pbVista.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbVista.TabIndex = 2;
+            this.pbVista.TabStop = false;
             // 
             // label1
             // 
@@ -110,40 +123,43 @@
             this.lblxy.TabIndex = 1;
             this.lblxy.Text = "label2";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 176);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 19);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Flechas";
-            // 
             // lblFlechas
             // 
             this.lblFlechas.AutoSize = true;
-            this.lblFlechas.Location = new System.Drawing.Point(3, 195);
+            this.lblFlechas.Location = new System.Drawing.Point(3, 176);
             this.lblFlechas.Name = "lblFlechas";
             this.lblFlechas.Size = new System.Drawing.Size(0, 19);
             this.lblFlechas.TabIndex = 7;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 217);
+            this.button1.Location = new System.Drawing.Point(3, 198);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 35);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
+            this.button1.Text = "Comenzar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pbAventurero
+            // 
+            this.pbAventurero.Image = global::Wumpus.Properties.Resources.ezgif_3_5365f0d974;
+            this.pbAventurero.Location = new System.Drawing.Point(3, 277);
+            this.pbAventurero.Name = "pbAventurero";
+            this.pbAventurero.Size = new System.Drawing.Size(188, 160);
+            this.pbAventurero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbAventurero.TabIndex = 0;
+            this.pbAventurero.TabStop = false;
+            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 424);
+            this.textBox1.Location = new System.Drawing.Point(3, 443);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(191, 26);
             this.textBox1.TabIndex = 4;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.textBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
             // 
             // tablero
             // 
@@ -152,26 +168,23 @@
             this.tablero.Size = new System.Drawing.Size(675, 487);
             this.tablero.TabIndex = 1;
             // 
-            // pbVista
+            // label3
             // 
-            this.pbVista.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pbVista.Image = global::Wumpus.Properties.Resources.me_gusta;
-            this.pbVista.Location = new System.Drawing.Point(3, 26);
-            this.pbVista.Name = "pbVista";
-            this.pbVista.Size = new System.Drawing.Size(191, 105);
-            this.pbVista.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbVista.TabIndex = 2;
-            this.pbVista.TabStop = false;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Consolas", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(3, 236);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 19);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Descripcion";
             // 
-            // pbAventurero
+            // lblDescripcion
             // 
-            this.pbAventurero.Image = global::Wumpus.Properties.Resources.ezgif_3_5365f0d974;
-            this.pbAventurero.Location = new System.Drawing.Point(3, 258);
-            this.pbAventurero.Name = "pbAventurero";
-            this.pbAventurero.Size = new System.Drawing.Size(188, 160);
-            this.pbAventurero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbAventurero.TabIndex = 0;
-            this.pbAventurero.TabStop = false;
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.Location = new System.Drawing.Point(3, 255);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(0, 19);
+            this.lblDescripcion.TabIndex = 9;
             // 
             // Form1
             // 
@@ -181,9 +194,11 @@
             this.ClientSize = new System.Drawing.Size(889, 499);
             this.Controls.Add(this.tlp_Juego);
             this.Font = new System.Drawing.Font("Consolas", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaximumSize = new System.Drawing.Size(911, 555);
+            this.MinimumSize = new System.Drawing.Size(911, 555);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "MUNDO DE WUMPUS!";
             this.tlp_Juego.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
@@ -205,8 +220,9 @@
         private System.Windows.Forms.FlowLayoutPanel tablero;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblFlechas;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblDescripcion;
     }
 }
 

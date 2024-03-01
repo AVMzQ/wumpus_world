@@ -10,6 +10,7 @@ namespace Wumpus
 {
     internal class Aventurero_data
     {
+        public bool TieneOro = false, ganador = false;
         public FlowLayoutPanel tablero;
         public int x, y, flechas;
         public PictureBox aventurero = new PictureBox()
@@ -21,6 +22,7 @@ namespace Wumpus
             BackColor = Color.White,
             Name = "Aventurero"
         };
+        public PictureBox descripcion = new PictureBox();
         public Tuple<int, Panel> Aventurero_Posicion;
     }
 }

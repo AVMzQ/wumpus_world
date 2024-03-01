@@ -19,17 +19,7 @@ namespace Wumpus
             BackColor =Color.White,
             Name = "Aventurero"
         };
-        public PictureBox Pb_oro = new PictureBox()
-        {
-            Image = Properties.Resources.lingote_de_oro,
-            Size = new Size(50, 50),
-            SizeMode = PictureBoxSizeMode.StretchImage,
-            Dock = DockStyle.Fill,
-            BackColor = Color.Gold,
-            Name = "Oro",
-            Visible = true
-        };
-        
+
         public int x = 0, y = 0;
         public List<Panel> Wumpus_posicion = new List<Panel>();
         public List<Panel> Hoyo_posicion = new List<Panel>();

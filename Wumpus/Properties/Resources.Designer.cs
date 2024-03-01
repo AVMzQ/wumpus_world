@@ -63,6 +63,16 @@ namespace Wumpus.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _200w {
+            get {
+                object obj = ResourceManager.GetObject("_200w", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap agujero {
             get {
                 object obj = ResourceManager.GetObject("agujero", resourceCulture);
@@ -92,11 +102,49 @@ namespace Wumpus.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Brisa__efecto_de_sonido {
+            get {
+                return ResourceManager.GetStream("Brisa__efecto_de_sonido", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cueva {
+            get {
+                object obj = ResourceManager.GetObject("cueva", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Dark_Souls___You_Died___Sound_Effect {
+            get {
+                return ResourceManager.GetStream("Dark_Souls___You_Died___Sound_Effect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap ezgif_3_5365f0d974 {
             get {
                 object obj = ResourceManager.GetObject("ezgif-3-5365f0d974", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fe28b730923627_563933e4c2143 {
+            get {
+                object obj = ResourceManager.GetObject("fe28b730923627_563933e4c2143", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -142,6 +190,15 @@ namespace Wumpus.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Gruñido_de_Monstruo_Sonido___Monster_Snarling_Sound {
+            get {
+                return ResourceManager.GetStream("Gruñido_de_Monstruo_Sonido___Monster_Snarling_Sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap lingote_de_oro {
@@ -158,6 +215,33 @@ namespace Wumpus.Properties {
             get {
                 object obj = ResourceManager.GetObject("me-gusta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Pokémon_Blanco_y_Negro_OST___14___Pueblo_Terracota {
+            get {
+                return ResourceManager.GetStream("Pokémon_Blanco_y_Negro_OST___14___Pueblo_Terracota", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Pokémon_Blanco_y_Negro_OST___52__Problemas_en_Combate {
+            get {
+                return ResourceManager.GetStream("Pokémon_Blanco_y_Negro_OST___52__Problemas_en_Combate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Sonido_de_ganador {
+            get {
+                return ResourceManager.GetStream("Sonido_de_ganador", resourceCulture);
             }
         }
         
