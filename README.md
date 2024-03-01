@@ -25,28 +25,31 @@ El juego aun no esta finalizado, me gustaria agregarle mas funciones pero por el
 
 <b>ilustraciones</b>
 
-<a href="https://www.flaticon.es/iconos-gratis/flecha" title="flecha iconos">Flecha iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/flecha" title="flecha iconos" target="_blank">Flecha iconos creados por Freepik - Flaticon</a>
 
-<a href="https://www.flaticon.es/iconos-gratis/flecha-izquierda" title="flecha izquierda iconos">Flecha izquierda iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/flecha-izquierda" title="flecha izquierda iconos" target="_blank">Flecha izquierda iconos creados por Freepik - Flaticon</a>
 
-<a href="https://www.flaticon.es/iconos-gratis/flecha-hacia-abajo" title="flecha hacia abajo iconos">Flecha hacia abajo iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/flecha-hacia-abajo" title="flecha hacia abajo iconos" target="_blank">Flecha hacia abajo iconos creados por Freepik - Flaticon</a>
 
-<a href="https://www.flaticon.es/iconos-gratis/flecha-arriba" title="flecha arriba iconos">Flecha arriba iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/flecha-arriba" title="flecha arriba iconos" target="_blank">Flecha arriba iconos creados por Freepik - Flaticon</a>
 
-<a href="https://www.flaticon.es/iconos-gratis/mineral" title="mineral iconos">Mineral iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/mineral" title="mineral iconos" target="_blank">Mineral iconos creados por Freepik - Flaticon</a>
 
-<a href="https://www.flaticon.es/iconos-gratis/viento" title="viento iconos">Viento iconos creados por Fliqqer - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/viento" title="viento iconos" target="_blank">Viento iconos creados por Fliqqer - Flaticon</a>
 
-<a href="https://www.flaticon.es/iconos-gratis/asistencia-sanitaria-y-medica" title="asistencia sanitaria y médica iconos">Asistencia sanitaria y médica iconos creados por Umeicon - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/asistencia-sanitaria-y-medica" title="asistencia sanitaria y médica iconos" target="_blank">Asistencia sanitaria y médica iconos creados por Umeicon - Flaticon</a>
 
-<a href="https://www.flaticon.es/iconos-gratis/agujero" title="agujero iconos">Agujero iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/agujero" title="agujero iconos" target="_blank">Agujero iconos creados por Freepik - Flaticon</a>
 
 <b>Audio</b>
 
-<a href="https://www.youtube.com/watch?v=7wfvXCVgPPA&ab_channel=JOSEYAMILGARCIAALICEA" title="Ganador">Ganador</a>
+<a href="https://www.youtube.com/watch?v=7wfvXCVgPPA&ab_channel=JOSEYAMILGARCIAALICEA" title="Ganador" target="_blank">Ganador</a>
 
-<a href="https://www.youtube.com/watch?v=_hwsHtfGzGw&list=PLA5DyRDOh7WQx7WUMo_vUZTZJolxneHpE&index=54&ab_channel=JaimeBallesteros" >Sal de ahi!</a>
+<a href="https://www.youtube.com/watch?v=_hwsHtfGzGw&list=PLA5DyRDOh7WQx7WUMo_vUZTZJolxneHpE&index=54&ab_channel=JaimeBallesteros" target="_blank" title = "Sal de ahi!">Sal de ahi!</a>
 
-<a href="https://www.youtube.com/watch?v=j_nV2jcTFvA&ab_channel=NebulousState" >Muerte</a>
+<a href="https://www.youtube.com/watch?v=j_nV2jcTFvA&ab_channel=NebulousState" title="Muerte" target="_blank">Muerte</a>
 
-<a href="https://www.youtube.com/watch?v=iCmWBawuLjY&ab_channel=BancodeSonidos" >Wumpus!</a>
+<a href="https://www.youtube.com/watch?v=iCmWBawuLjY&ab_channel=BancodeSonidos" title="Brisa" target="_blank">Brisa</a>
+
+<a href="https://www.youtube.com/watch?v=iCmWBawuLjY&ab_channel=BancodeSonidos" title="Wumpus" target="_blank">Wumpus!</a>
+
