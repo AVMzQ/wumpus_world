@@ -2,16 +2,18 @@
 El objetivo del juego es econtrar el oro y salir de la cueva sin morir en el intento.
 
 <b>********** Reglas del juego**********</b>
+El jugador comienza en la cueva
 
-El jugador emíeza empieza en la cueva
 Existe tres tipos de señalamientos
-+Hedor (señana que serca esta el wumpus!)
-+Brisa (señana que serca hay un hoyo)
-+Hedor&Brisa (suerte)
-
-El jugador puede moverse con AWDSA. Para moverse debe de estar posicionado en la caja de texto.
+<ul>
+  <li>Hedor (señana que serca esta el wumpus!)</li>
+  <li>Brisa (señana que serca hay un hoyo)</li>
+  <li>Hedor&Brisa (suerte)</li>
+</ul>
+El jugador puede moverse con AWDSA. (Para moverse debe de estar posicionado en la caja de texto).
 
 Cada tablero se genera aleatoriamente.
+
 Cada movimiento del jugador se ira contando para competir entre jugadores.
 Comparte tu mejor puntuacion!. 
 
